@@ -6,7 +6,7 @@ it.optional = testOptional;
 
 Object.freeze(assert);
 
-function convertArrayToList(arr) {
+function  convertArrayToList(arr) {
   return arr.reverse().reduce((acc, cur) => {
     if (acc) {
       const node = new ListNode(cur);
