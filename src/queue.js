@@ -20,10 +20,7 @@ class Queue {
   }
 
   getUnderlyingList() {
-    let currentNode = this.head;
-    while (currentNode.next) {
-      return currentNode;
-    }
+    return this.head;
   }
 
   enqueue(value) {
